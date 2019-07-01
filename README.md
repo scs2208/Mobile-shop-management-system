@@ -2,5 +2,5 @@
 <br>
 This respo include Home,login,user registration,dashboard,salary modules
 <br>
-To run this project clone/download this respo to www directory.And import database.
+To run this project clone/download this respo to www directory.And import database.<br>
 Then type <b>http://localhost/Final-project/index.php/Welcome/index <b>on your browser.
