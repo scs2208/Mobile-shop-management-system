@@ -1,0 +1,119 @@
+*{box-sizing:border-box;}
+
+body{
+
+background-repeat: no-repeat;
+ //background-color: #cccccc;
+background-size:cover;
+font-family:'Nunito',sans-serif;
+color:#384047;
+}
+
+form{
+max-width:300px;
+margin:10px auto;
+padding:10px 20px;
+background:#f4f7f8;
+border-radius:8px;
+}
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+h1{
+margin:0 0 30px 0;
+text-align:center;
+}
+input[type="text"],
+input[type="text"],
+input[type="number"],
+input[type="number"],
+input[type="number"],
+textarea,
+select{
+background:rgba(255,255,255,0.1);
+boarder:none;
+font-size:16px;
+height:auto;
+margin:0;
+outline:0;
+padding:15px;
+width:100%;
+background-color:#e8eeef;
+color:#8a97a0;
+box-shadow:01px 0 rgb(0,0,0,0.3)inset;
+margin-bottom:30px;
+}
+
+input:focus, textarea:focus{
+box-shadow:0 0 5px rgba(81,203,238,1);
+border: 1px solid rgba(81,203,238,1);
+}
+
+
+legend{
+display:block;
+margin-bottom:8px;
+}
+
+lable.light{
+font-weight:300;
+display:inline;
+}
+
+ button{
+padding:19px 39px 18px 39px;
+color:#FFF;
+background-color: #4bc970;
+font-size:18px;
+text-align:center;
+font-style:normal;
+border-radius: 5px;
+width:100%;
+border:1px solid #3ac162;
+boeder-width: 1px 1px 3px;
+boxishadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+margin-bottom:10px;
+}
+
+
+button{
+padding:19px 39px 18px 39px;
+color:#FFF;
+background-color: #4bc970;
+font-size:18px;
+text-align:center;
+font-style:normal;
+border-radius: 5px;
+width:100%;
+border:1px solid #3ac162;
+boeder-width: 1px 1px 3px;
+boxishadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+margin-bottom:10px;
+}
+
+
+
+@media screen and (min-width: 480px){
+form{
+max-width: 480px;
+}
+}
+table {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+
+td {
+  padding: 10px 0;
+}
