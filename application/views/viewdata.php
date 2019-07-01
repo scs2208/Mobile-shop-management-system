@@ -6,11 +6,10 @@
 		<link href="<?php echo base_url(); ?>/CSS/dev.css" rel="stylesheet" type="text/css">
 		<link href="<?php echo base_url(); ?>/CSS/n.css" rel="stylesheet" type="text/css">
 		<div class="navbar">
-  <a href="index">Salary</a>
-  <a href="<?php echo base_url(); ?>index.php/User/index">Home</a>
+  			<a href="index">Salary</a>
+  			<a href="<?php echo base_url(); ?>index.php/User/index">Dashboard</a>
     </div>
-  </div> 
-</div>
+  
 <style>
 body {
  background-image: url("../../img/c.jpg");
