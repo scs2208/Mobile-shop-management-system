@@ -8,7 +8,7 @@
 		<div class="navbar">
   			<a href="index">Salary</a>
   			<a href="<?php echo base_url(); ?>index.php/User/index">Dashboard</a>
-    </div>
+    	</div>
   
 <style>
 body {
