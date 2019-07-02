@@ -26,7 +26,7 @@
       </div>
     </div>
   <?php endif; ?>
-  <a href="#">Transaction</a>
+  <a href="<?php echo base_url(); ?>index.php/crud/index">Transaction</a>
   <a href="#">Stock</a>
   <a href="<?php echo base_url(); ?>index.php/Welcome/logout">Log out</a>
 </div>
