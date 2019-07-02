@@ -16,10 +16,11 @@ body {
  width: 100%;
 }
 </style>
+
 </head>
+
 <body>
-<?php echo "Data insert successfully!"; ?>
-<br> <br>
+
 <table class="table table-bordered" style="background-color:#ffffff">
 	<tr>
 		<td>Id</td>
