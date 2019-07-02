@@ -99,7 +99,35 @@ INSERT INTO `users` (`name`, `password`, `userid`, `level`) VALUES
 ('kavishka', 'Hello@world', 'A000', 1),
 ('janaka', 'janaka', 's001', 0),
 ('kamal', 'kamal123', 's002', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `trans`
+--
+
+DROP TABLE IF EXISTS `trans`;
+CREATE TABLE IF NOT EXISTS `trans` (
+  `Bill_No` int(4) NOT NULL,
+  `Date` date NOT NULL,
+  `Customer_Name` varchar(20) NOT NULL,
+  `Customer_Contact` bigint(10) NOT NULL,
+  `Item_Quantity` varchar(225) NOT NULL,
+  `Price` varchar(20) NOT NULL,
+  `Cashier_ID` varchar(4) NOT NULL,
+  PRIMARY KEY (`Bill_No`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `trans`
+--
+
+INSERT INTO `trans` (`Bill_No`, `Date`, `Customer_Name`, `Customer_Contact`, `Item_Quantity`, `Price`, `Cashier_ID`) VALUES
+(1, '2019-06-12', 'R.N. Herath', 754426475, '1 SD card', '900.00', '002'),
+(2, '2019-06-14', 'D.K. Silva', 775538133, '1 Bluetooth Headset', '1500.00', '009'),
+(3, '2019-06-18', 'A.K. Perera', 712398455, '1 Samsung Galaxy J7', '31000.00', '001');
 COMMIT;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
