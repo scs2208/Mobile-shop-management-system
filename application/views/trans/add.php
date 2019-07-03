@@ -13,7 +13,7 @@ $this->load->view('templates/header');
 
 <div class="row">
     <div class="col-lg-12">
-        <a href="<?php print site_url();?>" class="pull-left btn btn-primary btn-xs" style="margin:10px;background-color:green;border-color:=green;"><i class="fa fa-list"></i> Back to List</a>
+        <a href="<?php print site_url();?>/crud/index" class="pull-left btn btn-primary btn-xs" style="margin:10px;background-color:green;border-color:=green;"><i class="fa fa-list"></i> Back to List</a>
 
     </div>
 </div>

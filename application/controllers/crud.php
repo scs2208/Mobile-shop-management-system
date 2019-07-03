@@ -58,7 +58,7 @@ class crud extends CI_Controller {
             $this->trans->setCashierID($Cashier_ID);
 
             $this->trans->createTrans();
-            redirect('/');
+            redirect('crud/index');
         }
     }
 
@@ -100,7 +100,7 @@ class crud extends CI_Controller {
             $this->trans->setCashierID($Cashier_ID);
 
             $this->trans->updateTrans();
-            redirect('/');
+            redirect('crud/index');
         }
     }
 
@@ -116,7 +116,7 @@ class crud extends CI_Controller {
     public function delete($billno='') {
         $this->trans->setBillNo($billno);
         $this->trans->deleteTrans();
-        redirect('/');
+        redirect('crud/index');
     }
 }
 ?>

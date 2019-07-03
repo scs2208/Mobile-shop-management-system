@@ -16,7 +16,7 @@ $this->load->view('templates/header');
 
 <div class="row">
     <div class="col-lg-12">
-        <a href="<?php print site_url();?>" class="pull-left btn btn-primary btn-xs" style="margin: 2px;"><i class="fa fa-list"></i> List</a>
+        <a href="<?php print site_url();?>/crud/index" class="pull-left btn btn-primary btn-xs" style="margin: 2px;"><i class="fa fa-list"></i> List</a>
 
     </div>
 </div>

@@ -20,7 +20,7 @@ $this->load->view('templates/header');
 
 <div class="row">
     <div class="col-lg-12">
-        <a href="<?php print site_url();?>" class="pull-left btn btn-primary btn-xs" style="margin: 10px; background-color:green"><i class="fa fa-list"></i> Back to List</a>
+        <a href="<?php print site_url();?>/crud/index" class="pull-left btn btn-primary btn-xs" style="margin: 10px; background-color:green"><i class="fa fa-list"></i> Back to List</a>
 
     </div>
 </div>
@@ -136,7 +136,7 @@ $this->load->view('templates/header');
       </div>
       <div class="row">
           <div class="col-lg-12 text-right">
-              <button type="reset" name="reset_add_trans" id="re-submit-trans" class="btn btn-danger"><i class="fa fa-undo"></i> Reset</button>
+             <a href ="<?php print site_url();?>/crud/index"> <button type="reset" name="reset_add_trans" id="re-submit-trans" class="btn btn-danger"><i class="fa fa-undo"></i> Reset</button></a>
               <button type="submit" name="add_trans" id="submit-trans" class="btn btn-primary"><i class="fa fa-save"></i> Submit</button>
           </div>
       </div>
