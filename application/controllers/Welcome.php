@@ -31,7 +31,7 @@ class Welcome extends CI_Controller {
 			if ($query->num_rows() > 0){                   //captured no of results(row) should be > 0
 				
 				$data = $query->row_array();
-				$sesdata = array('name'=>$data['name'],'id'=>$data['userid'],'level'=>$data['level']);
+				$sesdata = array('name'=>$data['name'],'id'=>$data['userid'],'level'=>$data['level'],'logeed_in'=>TRUE);
 				$this->session->set_userdata($sesdata);
 			    redirect('User/index');
 			}
@@ -46,8 +46,9 @@ class Welcome extends CI_Controller {
 
 	public function logout(){
 
+		$this->session->unset_userdata('logged_in');
 		$this->session->sess_destroy();
 		//$this->load->view('login_view');        //direct back to home
-		redirect('Welcome/login');
+		redirect('Welcome/login','refresh');
 	}
 }

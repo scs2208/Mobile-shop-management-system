@@ -3,11 +3,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class User extends CI_Controller {
 
-	
+	public function __construct(){
+
+    	parent::__construct();
+    	if( $this->session->userdata('logged_in' !== TRUE)){
+
+        	return redirect('Welcome/login');
+    	}
+} 
+
 	public function index(){
+		
+		if( $this->session->userdata('logged_in' !== TRUE)){
 
-		$this->load->view('dashboard_view');  
+        	return redirect('Welcome/login');
+		}
+		else{
 
+			$this->load->view('dashboard_view');  
+		}
+		
     }
 
     public function display(){
