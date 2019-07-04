@@ -1,4 +1,5 @@
 
+       
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(). "./assert/css/update.css" ?>">
         <style>
             #container {
@@ -31,24 +32,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" nid="mySidebar"><br>
   <div class="w3-container">
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <h1>mOBILE sHOP</h1>
+    <h1>Mobile Store</h1>
     <img src="<?php echo base_url()?>./img/profile.png" style="width:45%;" class="w3-round"><br><br>
     <h4><b>Select Profile</b></h4>
     
   </div>
   <div class="w3-bar-block">
 
-            <div id="menu">
+
+            <div nid="menu">
                    
-                   <!-- Fetching reg ids Of All registrations From Database -->
+                   <!-- Fetching reg ids Of All persons From Database -->
                    <ol>
-                       <?php foreach ($registrations as $registration): ?>
-                       <li><a href="<?php echo base_url() . "index.php/update_ctrl/reg_id1/" .$registration->id; ?>"><?php echo $registration->name; ?></a>
+                       <?php foreach ($persons as $persons): ?>
+                       <li><a href="<?php echo base_url() . "index.php/update_ctrl/reg_id1/" .$persons->nid; ?>"><?php echo $persons->fullName; ?></a>
            
                        </li><?php endforeach; ?>
                    </ol>
@@ -66,36 +68,39 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </nav>
 
         <div class="w3-main" style="margin-left:300px">
-            <div id="wrapper">
-                 <br><br><br><h1>Your Details </h1><br><hr/><br><br>
+            <div nid="wrapper">
+                <center> <br><br><br><h1>Staff Details </h1><br><hr/><br><br></center>
                
-                <div id="detail">
+                <div nid="detail">
                     <!-- Fetching All Details of Selected registrations From Database And Showing In a Form -->
-                    <?php foreach ($single_registration as $registration): ?>
+                    <?php foreach ($single_registration as $persons): ?>
                     <!-- <br><h4>Edit Detail & Click Update Button</h4><br><br><br> -->
                     <form method="post" action="<?php echo base_url() . "index.php/update_ctrl/reg_id1"?>">
                        <div  style="margin-left:100px">
 
-                            
-                            <label>Name :</label><br>
-                            <input type="text" name="name" value="<?php echo $registration->name; ?>"><br>
-                            <label>Email :</label><br>
-                            <input type="text" name="email" value="<?php echo $registration->email; ?>"><br>
-                            <label>Address :</label><br>
-                            <input type="text" name="Address" value="<?php echo $registration->Address; ?>"><br>
-                            <label>Telephone No :</label><br>
-                            <input type="text" name="tp_no" value="<?php echo $registration->tp_no; ?>"><br>
-                            <label>Attendence :</label><br>
-                            <input type="text" name="attendence" value="<?php echo $registration->attendence; ?>"><br>
-                            <label>Salary :</label><br>
-                            <input type="text" name="salary" value="<?php echo $registration->salary; ?>"><br>
-                            
                            
+                            <label>Name :</label><br>
+                            <input type="text" name="name" value="<?php echo $persons->fullName; ?>"><br>
+                            <label>NIC :</label><br>
+                            <input type="text" nid="nid" value="<?php echo $persons->nid; ?>"><br>
+                            <label>PHONE_NO :</label><br>
+                            <input type="text" phoneNo="phone_no" value="<?php echo $persons->phoneNo; ?>"><br>
+                            <label>ADDRESS :</label><br>
+                            <input type="text" address="addrerss" value="<?php echo $persons->address; ?>"><br>
+                            <label>USERNAME :</label><br>
+                            <input type="text" uName="username" value="<?php echo $persons->uName; ?>"><br>
+                            <label>USERID :</label><br>
+                            <input type="text" uId="userid" value="<?php echo $persons->uId; ?>"><br>
+                            <label>PASSWORD :</label><br>
+                            <input type="text" uId="password" value="<?php echo $persons->password; ?>"><br>
+                            
+                          
                         
-                            <!-- <input type="submit" id="submit" name="submit" value="Update"> -->
+                            <!-- <input type="submit" nid="submit" name="submit" value="Update"> -->
                         </div>
                     </form>
                     <?php endforeach; ?>
                 </div>
             </div>
         </div>
+
