@@ -6,7 +6,7 @@
         }
         public function reg_id() {
             $id = $this->uri->segment(3);
-            $data['registrations'] = $this->update_model->show_regs();
+            $data['persons'] = $this->update_model->show_regs();
             $data['single_registration'] = $this->update_model->show_reg_id($id);
             
           
