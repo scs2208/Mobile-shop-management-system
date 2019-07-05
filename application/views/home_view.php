@@ -189,7 +189,7 @@
                   <h4 class="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Our shop opened in 2009.Back then our shop was only phone repair shop</p>
+                  <p class="text-muted">Our store was opened in 2009. Back then it was only a phone repair store which provided basic repair services</p>
                 </div>
               </div>
             </li>
@@ -200,10 +200,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>March 2011</h4>
-                  <h4 class="subheading">A shop is Born</h4>
+                  <h4 class="subheading">A Shop is Born</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">We started selling Mobile phones in 2011.we were one of main samsung samrt phone distributor</p>
+                  <p class="text-muted">We started offering Mobile Phones in 2011. We were one of the Main Samsung Smart phone distributors</p>
                 </div>
               </div>
             </li>
@@ -216,7 +216,7 @@
                   <h4>Today</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Today we sell lots of brands such as samsung,huwawei,Apple,lenove etc and have loyal custormers</p>
+                  <p class="text-muted">Today we offer lots of brands such as Samsung, Huawei, Apple, Lenovo etc</p>
                 </div>
               </div>
             </li>
@@ -225,7 +225,7 @@
               <div class="timeline-image">
                 <h4>Come,
                   <br>Visit us,
-                  <br>Experience our genuine service!</h4>
+                  <br>Experience our service!</h4>
               </div>
             </li>
           </ul>
