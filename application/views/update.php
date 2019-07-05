@@ -1,21 +1,23 @@
 <html>
 <head>
 <title>Registration form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 <style>
   table{
-    background-color: #f2d2ae;
+    background-color: none;
   }
 </style>
 </head>
  
 <body>
+	<div class="container">
  <?php
 
   foreach($data as $row)
   {
   ?>
  <form method="post">
- <table width="600" border="1" cellspacing="5" cellpadding="5">
+ <table width="400" class="table">
   <tr>
     <td width="230">Enter  category name </td>
     <td width="329"><input type="text" name="name" value="<?php echo $row->name; ?>"/></td>
@@ -46,5 +48,6 @@
 </table>
  </form>
  <?php } ?>
+	</div>
 </body>
 </html>
