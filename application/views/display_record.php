@@ -2,23 +2,13 @@
 <html>
 <head>
 <title>Display Records</title>
-<style >
-  a{
-    text-decoration: none;
-  }
-  a:hover{
-    color: green;
-  }
-
-  table{
-    background-color: #f2eff1;
-  }
-</style>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	
 </head>
  
 <body>
-<table width="600" border="1" cellspacing="5" cellpadding="5">
+<div class="container">
+<table width="200" class="table">
   <tr style="background:#CCC">
     <th>The category name</th>
     <th>The brand ID</th>
@@ -38,15 +28,16 @@
   echo "<td>".$row->The_brand."</td>";
   echo "<td>".$row->Price_of_the_brand."</td>";
   echo "<td>".$row->stock."</td>";
-  echo "<td><a href='deletedata?id=".$row->id."'>Delete</a></td>";
-  echo "<td><a href='updatedata?id=".$row->id."'>Update</a></td>";
+  echo "<td><a href='deletedata?id=".$row->id."'><button>Delete</button></a></td>";
+  echo "<td><a href='updatedata?id=".$row->id."'><button>Update</button></a></td>";
   echo "</tr>";
   
   }
    ?>
 </table>
-	<br>
-	<a href = "<?php echo base_url()?>index.php/hello_controller_display/dispdata"><button>display</button></a>
-	<a href = "<?php echo base_url()?>index.php/hello_controller_insert/savedata"><button>insert</button></a>
+<br>
+<a href = "<?php echo base_url()?>index.php/hello_controller_display/dispdata"><button>display</button></a>
+<a href = "<?php echo base_url()?>index.php/hello_controller_insert/savedata"><button>insert</button></a>
+</div>
 </body>
 </html>
