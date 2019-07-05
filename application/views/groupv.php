@@ -13,7 +13,7 @@
 body {
  background-image: url("../../img/c.jpg");
  width: 100%;
-}
+ }
 
 </style>
 
