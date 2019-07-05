@@ -45,5 +45,8 @@
   }
    ?>
 </table>
+	<br>
+	<a href = "<?php echo base_url()?>index.php/hello_controller_display/dispdata"><button>display</button></a>
+	<a href = "<?php echo base_url()?>index.php/hello_controller_insert/savedata"><button>insert</button></a>
 </body>
 </html>
