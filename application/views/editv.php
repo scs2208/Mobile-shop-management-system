@@ -9,7 +9,7 @@
   <a href="<?php echo site_url('groupc/index1');?>">View</a>
   <a href="<?php echo site_url('groupc/index');?>">Salary</a>
 		<a href="<?php echo base_url(); ?>index.php/User/index">Dashboard</a>
-    </div>
+	</div>
 <style>
 
 body {
