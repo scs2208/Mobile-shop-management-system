@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,18 +19,16 @@
       <div class="dropdown-content">
         <a href="<?php echo base_url(); ?>index.php/User/display">View</a>
         <a href="<?php echo base_url(); ?>index.php/User/register">Register</a>
-        <a href="#">Profile</a>
+        <a href="<?php echo base_url(); ?>index.php/update_ctrl/reg_id">Profile</a>
         <a href="<?php echo base_url(); ?>index.php/groupc/index1">Salary</a>
       </div>
     </div>
   <?php endif; ?>
   <a href="<?php echo base_url(); ?>index.php/crud/index">Transaction</a>
-  <a href="#">Stock</a>
+  <a href="<?php echo base_url(); ?>index.php/hello_controller_display/dispdata">Stock</a>
   <a href="<?php echo base_url(); ?>index.php/Welcome/logout">Log out</a>
 </div>
 <br><br>
-
-
 
 </body>
 </html>

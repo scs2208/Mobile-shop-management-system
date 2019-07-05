@@ -234,6 +234,7 @@
     </div>
   </section>
   
+  <!-- map -->
   <div class="container">
   <div class="mapouter">
     <div class="gmap_canvas">

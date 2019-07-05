@@ -30,7 +30,7 @@
             <input type ="text" name="userid" placeholder=" " value="" required>
 
             <!--<input type ="submit" name="submit" value="submit">-->
-            <button type="submit" >Submit</button>
+            <button type="sign in" >Submit</button>
             <?php echo form_close() ?>
         </form>
     </div>
