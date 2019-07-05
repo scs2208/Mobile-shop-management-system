@@ -3,9 +3,10 @@
 <html>
 <head>
 <title>Registration form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 <style>
   table{
-    background-color: #FCF3CF;
+    background-color: white;
   }
   tr{
     color: black;
@@ -15,15 +16,16 @@
   }
 
   input.but{
-    background-color:#e5b227;
+    background-color:none;
   }
 
 </style>
 </head>
 
 <body>
+<div class="container">
 	<form method="post">
-		<table width="600" border="1" cellspacing="5" cellpadding="5">
+		<table width="400" class="table">
   <tr>
     <td width="230">Enter the category name </td>
     <td width="329"><input type="text" name="name"/></td>
@@ -53,5 +55,6 @@
 </table>
 
 	</form>
+</div>
 </body>
 </html>
