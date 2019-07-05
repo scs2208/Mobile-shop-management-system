@@ -11,7 +11,7 @@
 
 <body>
     
-        <div class =' container'>
+        <div class ='container'>
         <?php
            $uId = $record->uId;
 		   echo form_open(base_url('index.php/User/update/'.$uId));   //pass parameter to update in controll User

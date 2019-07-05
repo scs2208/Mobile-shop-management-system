@@ -9,7 +9,6 @@
 </head>
 <body>
 
-
 <div class="navbar">
   <a href="#">Dashboard</a>
   <a href="<?php echo base_url(); ?>index.php/Welcome/index">Home</a>
