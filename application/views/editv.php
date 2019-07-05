@@ -11,9 +11,9 @@
 		<a href="<?php echo base_url(); ?>index.php/User/index">Dashboard</a>
     </div>
 <style>
+
 body {
- background-image: url("http://localhost/hasi./img/c.jpg");
- width: 100%;
+background-color : #3949AB;
 }
 </style>
 </head>
