@@ -14,7 +14,18 @@
           
         }
         public function reg_id1() {
-          
+			 $id= $this->input->post('nid');
+            $data = array(
+            'fullName' => $this->input->post('name'),
+            'nid' => $this->input->post('nid'),
+            'phoneNo' => $this->input->post('phone_no'),
+            'address' => $this->input->post('addrerss'),
+            'uName' => $this->input->post('username'),
+            'uId' => $this->input->post('userid'),
+           
+            
+            );
+            $this->update_model->reg_id1($id,$data);
             $this->reg_id();
         }
     }
