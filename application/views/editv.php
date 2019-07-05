@@ -11,7 +11,9 @@
 		<a href="<?php echo base_url(); ?>index.php/User/index">Dashboard</a>
 	</div>
 <style>
-
+body {
+background-color : #3949AB;
+}
 
 </style>
 </head>
