@@ -12,7 +12,7 @@
     </div>
 <style>
 body {
- background-image: url("../../img/c.jpg");
+ background-image: url("http://localhost/hasi./img/c.jpg");
  width: 100%;
 }
 </style>
