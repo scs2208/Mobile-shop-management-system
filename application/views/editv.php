@@ -12,9 +12,7 @@
 	</div>
 <style>
 
-body {
-background-color : #3949AB;
-}
+
 </style>
 </head>
 <body>
