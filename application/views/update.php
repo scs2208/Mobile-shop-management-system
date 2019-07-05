@@ -43,7 +43,7 @@
 
   <tr>
     <td colspan="2" align="center">
- <input type="submit" name="update" value="Update Records"/></td>
+ <input type="submit" name="update" class="btn btn-default" value="Update Records"/></td>
   </tr>
 </table>
  </form>
