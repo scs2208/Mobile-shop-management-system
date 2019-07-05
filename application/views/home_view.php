@@ -72,22 +72,22 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">services supply from our shop</h3>
+          <h2 class="section-heading text-uppercase">SERVICES</h2>
+          <h3 class="section-subheading text-muted">Services supplied from our shop</h3>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
           <h4 class="service-heading">Repair</h4>
-          <p class="text-muted">we repair your phones back to working phones</p>
+          <p class="text-muted">We repair your phones back to working phones</p>
         </div>
         <div class="col-md-4">
-          <h4 class="service-heading">Buy phones</h4>
-          <p class="text-muted">our shop has latest best prices Mobile phones to sell</p>
+          <h4 class="service-heading">Buy Mobile Phones</h4>
+          <p class="text-muted">Our shop offers you new arrivals at a reasonable price </p>
         </div>
         <div class="col-md-4">
-          <h4 class="service-heading">Buy Accelorities</h4>
-          <p class="text-muted">You can buy all kind of accelorities ,parts of Mobile phones</p>
+          <h4 class="service-heading">Buy Accessories</h4>
+          <p class="text-muted">Buy all kinds of Mobile Phone accessories </p>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Brands</h2>
-          <h3 class="section-subheading text-muted">phone Brands in our shop</h3>
+          <h3 class="section-subheading text-muted">You can buy these Mobile Phone brands from our store</h3>
         </div>
       </div>
       <div class="row">
@@ -159,7 +159,7 @@
             <img class="img-fluid" src="<?php echo base_url(IMAGES); ?>/brands/image6s.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Lenova</h4>
+            <h4>Lenovo</h4>
            
           </div>
         </div>
@@ -223,9 +223,9 @@
             
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Custormer!</h4>
+                <h4>Come,
+                  <br>Visit us,
+                  <br>Experience our genuine service!</h4>
               </div>
             </li>
           </ul>
