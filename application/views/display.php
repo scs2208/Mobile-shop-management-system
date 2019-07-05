@@ -1,15 +1,12 @@
 <html>
 <head>
 <title>Display Records</title>
-<style>
-  td{
-    background-color:#bcc8db;
-  }
-</style>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
  
 <body>
-<table width="600" border="1" cellspacing="5" cellpadding="5">
+	<div class="container">
+<table width="600" border="1" cellspacing="5" cellpadding="5" class="table">
   <tr style="background:#CCC">
     <th>The category name</th>
     <th> The brand ID</th>
@@ -32,6 +29,6 @@
   }
    ?>
 </table>
- 
+	</div>
 </body>
 </html>
