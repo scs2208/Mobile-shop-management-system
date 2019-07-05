@@ -28,24 +28,24 @@
 		<table width="400" class="table">
   <tr>
     <td width="230">Enter the category name </td>
-    <td width="329"><input type="text" name="name"/></td>
+    <td width="329"><input type="text" name="name" class="form-control"/></td>
   </tr>
   <tr>
     <td>Enter the brand ID </td>
-    <td><input type="text" name="id"/></td>
+    <td><input type="text" name="id" class="form-control"/></td>
   </tr>
   <tr>
     <td>Enter the brand name </td>
-    <td><input type="text" name="The_brand"/></td>
+    <td><input type="text" name="The_brand" class="form-control"/></td>
   </tr>
   <tr>
     <td>Enter the price of the brand </td>
-    <td><input type="text" name="Price_of_the_brand"/></td>
+    <td><input type="text" name="Price_of_the_brand" class="form-control"/></td>
     </tr>
 
     <tr>
     <td>The stock </td>
-    <td><input type="text" name="stock"/></td>
+    <td><input type="text" name="stock" class="form-control"/></td>
   </tr>
 
 
