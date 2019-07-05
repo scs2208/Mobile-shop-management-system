@@ -78,25 +78,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
                     <form method="post" action="<?php echo base_url() . "index.php/update_ctrl/reg_id1"?>">
                        <div  style="margin-left:100px">
 
-                           
                             <label>Name :</label><br>
                             <input type="text" name="name" value="<?php echo $persons->fullName; ?>"><br>
                             <label>NIC :</label><br>
-                            <input type="text" nid="nid" value="<?php echo $persons->nid; ?>"><br>
+                            <input type="text" name="nid" value="<?php echo $persons->nid; ?>"><br>
                             <label>PHONE_NO :</label><br>
-                            <input type="text" phoneNo="phone_no" value="<?php echo $persons->phoneNo; ?>"><br>
+                            <input type="text" name="phone_no" value="<?php echo $persons->phoneNo; ?>"><br>
                             <label>ADDRESS :</label><br>
-                            <input type="text" address="addrerss" value="<?php echo $persons->address; ?>"><br>
+                            <input type="text" name="addrerss" value="<?php echo $persons->address; ?>"><br>
                             <label>USERNAME :</label><br>
-                            <input type="text" uName="username" value="<?php echo $persons->uName; ?>"><br>
+                            <input type="text" name="username" value="<?php echo $persons->uName; ?>"><br>
                             <label>USERID :</label><br>
-                            <input type="text" uId="userid" value="<?php echo $persons->uId; ?>"><br>
-                            <label>PASSWORD :</label><br>
-                            <input type="text" uId="password" value="<?php echo $persons->password; ?>"><br>
+                            <input type="text" name="userid" value="<?php echo $persons->uId; ?>"><br>
+                           
                             
                           
                         
-                            <!-- <input type="submit" nid="submit" name="submit" value="Update"> -->
+                             <input type="submit" nid="submit" name="submit" value="Update"> 
                         </div>
                     </form>
                     <?php endforeach; ?>
