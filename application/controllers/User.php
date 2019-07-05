@@ -39,7 +39,6 @@ class User extends CI_Controller {
 		$data['record'] = $this->User_model->getuserbyid($uId);
 		$this->load->view('update_view',$data);
 
-
 	}
 
 	public function delete($uId){
@@ -64,15 +63,11 @@ class User extends CI_Controller {
 
 			$this->load->model('User_model');
 			$this->User_model->update($uId);
-		
 		}
-
-
 	}
 
 	public function register(){
 
-		
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('fullName','Full Name','required');
 		$this->form_validation->set_rules('nid','National ID','required');
@@ -81,7 +76,6 @@ class User extends CI_Controller {
 		$this->form_validation->set_rules('uName','User Name','required');
 		$this->form_validation->set_rules('uId','User ID','required');
 		$this->form_validation->set_rules('password','Password','required');
-
 
 		if($this->form_validation->run() == FALSE){
 
@@ -95,7 +89,6 @@ class User extends CI_Controller {
 			$sucess='Account created';
 			$this->load->view('register_view',compact('sucess'));
 		}
-
     }
 }
                 
