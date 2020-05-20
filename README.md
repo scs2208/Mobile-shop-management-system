@@ -7,13 +7,35 @@ This is a project which facilitate user management and sales management for a mo
 ###  Technologies
 Project is created with:
 
-* Codeingniter (PHP framework) - MVC Architecture<br>
+* CodeIngniter (PHP framework) - MVC Architecture<br>
 * MySQL<br>
 
 ###  Interfaces
+![screnshots](https://github.com/scs2208/Mobile-shop-management-system/blob/master/img/screens/home.png)
+<br>
 
+![scrrenshots](https://github.com/scs2208/Mobile-shop-management-system/blob/master/img/screens/register2.png)
+<br>
+
+![scrrenshots](https://github.com/scs2208/Mobile-shop-management-system/blob/master/img/screens/login.png)
+<br>
+![scrrenshots](https://github.com/scs2208/Mobile-shop-management-system/blob/master/img/screens/employee.png)
+<br>
+![scrrenshots](https://github.com/scs2208/Mobile-shop-management-system/blob/master/img/screens/edit.png)
+<br>
+
+![scrrenshots](https://github.com/scs2208/Mobile-shop-management-system/blob/master/img/screens/dashboard.png)
 
 ### Features
+
+* Home Website 
+* Sign up
+* Sign in/Sign out
+* View,edit,remove Employees
+* Employees salary management
+* Sales Management
+* Manage Accounts
+* Mobile Stock Management
 
 ### Setup
 <br>
